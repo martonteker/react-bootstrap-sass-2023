@@ -14,7 +14,9 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+body,
+button,
+input {
   // Defines how the box model works
   box-sizing: border-box;
 }

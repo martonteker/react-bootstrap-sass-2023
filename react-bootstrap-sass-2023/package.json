@@ -18,10 +18,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "sass": "sass src/styles/main.scss src/styles/css/index.css",
-    "watch:sass": "sass src/styles/main.scss src/styles/css/index.css --watch",
+    "sass": "sass src/assets/styles/main.scss src/assets/styles/css/index.css",
+    "watch:sass": "sass src/assets/styles/main.scss src/assets/styles/css/index.css --watch",
     "start:sass": "npm-run-all -p watch:sass start",
-    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' src/styles/css/*.css -d src/styles/css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' src/assets/styles/css/*.css -d src/assets/styles/css",
     "dev": "npm-run-all -p watch:sass start"
   },
   "eslintConfig": {
